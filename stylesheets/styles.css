@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  background-color: aqua;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul li {
+  list-style: none;
+  padding: 1rem;
+  margin-right: 1rem;
+}
