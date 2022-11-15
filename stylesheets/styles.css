@@ -5,9 +5,12 @@
 }
 
 body {
+  font-family: 'Mulish', sans-serif;
   font-size: 1rem;
   background-color: aqua;
 }
+
+/* Navigation */
 
 header {
   position: sticky;
@@ -16,15 +19,19 @@ header {
   justify-content: center;
 }
 
-ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1rem;
+.name {
+  margin-right: auto;
+  display: inline-block;
 }
 
-ul li {
-  list-style: none;
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
-  margin-right: 1rem;
+  list-style: none;
+}
+
+.primary-navigation li {
+  padding-left: 3.5rem;
 }
