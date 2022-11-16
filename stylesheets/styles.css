@@ -13,25 +13,38 @@ body {
 /* Navigation */
 
 header {
-  position: sticky;
+  position: fixed;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
 
 .name {
-  margin-right: auto;
+  font-size: 1.5rem;
+  margin: .5rem;
   display: inline-block;
 }
 
 .nav-bar ul {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+}
+
+.nav-bar li {
   list-style: none;
 }
 
-.primary-navigation li {
-  padding-left: 3.5rem;
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.nav-bar li:hover {
+  background-color: #555;
 }
