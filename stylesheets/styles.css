@@ -124,5 +124,75 @@ header {
   padding: 0.5rem;
 }
 
+/* Contact Me Section */
+
+#contact-me {
+  width: 100%;
+}
+
+.contact-me-title {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin-top: 7.5rem;
+}
+
+.contact-me-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 1.5rem;
+  letter-spacing: 0.125rem;
+}
+
+.contact-me-description {
+  letter-spacing: 0.125rem;
+}
+
+.contact-me-container button {
+  margin-top: 2.5rem;
+}
+
+/* Contact Me Section (Socials) */
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  margin-top: 4rem;
+}
+
+.contact-info-container h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 1.25rem;
+}
+
+.contact-details {
+  padding: 1.75rem 0 0 3rem;
+}
+
+.contact-details li {
+  padding: 0.5rem;
+}
+
+.contact-details span {
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 999;
+  padding: 1rem;
+  margin-top: 8rem;
+}
 
 
