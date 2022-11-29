@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1rem;
+  background-color: aqua;
+}
+
+/* Navigation */
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 999;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: .5rem;
+  display: inline-block;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.nav-bar li:hover {
+  background-color: #555;
+}
+
+/* Projects Section */
+
+#projects {
+  width: 100%;
+  height: 100vh;
+  padding-top: 3.25rem;
+}
+
+#projects h1 {
+  font-size: 2.5rem;
+  padding: 3rem;
+}
+
+.project1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  flex-direction: column;
+}
+
+.project-name p, span {
+  padding: 1rem;
+}
+
+/* Project Images Containers */
+
+figure {
+  max-width: 200px;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  max-width: 200px;
+  text-align: center;
+}
