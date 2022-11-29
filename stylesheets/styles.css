@@ -88,7 +88,7 @@ header {
 }
 
 .skills-container p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
   padding: 1.25rem;
 }
@@ -102,6 +102,27 @@ header {
 }
 
 /* Projects Section */
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  margin-top: 4rem;
+}
+
+#projects h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding: 1.25rem;
+}
+
+.project-name {
+  padding: 1.75rem 0 0 3rem;
+}
+
+.project-name li {
+  padding: 0.5rem;
+}
 
 
 
