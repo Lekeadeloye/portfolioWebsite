@@ -78,9 +78,30 @@ header {
   text-align: center;
 }
 
-.skills {
+/* Skills Section */
+
+.skills-container {
   display: flex;
   flex-direction: column;
+  padding-left: 5rem;
+
 }
+
+.skills-container p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.25rem;
+}
+
+.skills-container ul {
+  padding: 1.75rem 0 0 3rem;
+}
+
+.skills-container li {
+  padding: 0.5rem;
+}
+
+/* Projects Section */
+
 
 
