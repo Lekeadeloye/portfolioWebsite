@@ -43,7 +43,11 @@ header {
   text-decoration: none;
   color: white;
   padding: 1rem;
-  display: block;
+  display: block;  
+}
+
+.nav-bar li {
+  transition: background-color 450ms ease-in-out;
 }
 
 .nav-bar li:hover {
@@ -102,6 +106,21 @@ header {
 }
 
 /* Projects Section */
+
+.project-name a {
+  text-decoration: none;
+  transition: all 350ms ease-in-out;
+}
+
+.project-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-name a:hover {
+  font-size: 1.5rem;
+  color: darkblue;
+}
 
 #projects {
   display: flex;
@@ -184,6 +203,15 @@ header {
 .contact-details span {
   font-weight: 700;
   padding-right: 0.5rem;
+}
+
+.contact-details a {
+  transition: all 250ms ease-in-out;
+}
+
+.contact-details a:hover {
+  font-weight: 500;
+  color: orangered;
 }
 
 /* Footer */
