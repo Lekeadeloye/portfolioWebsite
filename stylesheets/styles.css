@@ -141,16 +141,21 @@ header {
   width: 50%;
   margin: auto;
   text-align: center;
-  padding: 1.5rem;
-  letter-spacing: 0.125rem;
+  /* padding: 1.5rem; */
 }
 
 .contact-me-description {
-  letter-spacing: 0.125rem;
+  word-spacing: 0.25rem;
+}
+
+.contact-me-container p {
+  margin-top: 0.5rem;
 }
 
 .contact-me-container button {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding: 0.25rem;
 }
 
 /* Contact Me Section (Socials) */

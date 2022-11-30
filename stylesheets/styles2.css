@@ -59,10 +59,10 @@ header {
 
 #projects h1 {
   font-size: 2.5rem;
-  padding: 3rem;
+  padding: 3rem 5.5rem 1.5rem;
 }
 
-.project1-container {
+.project-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,20 +70,61 @@ header {
   flex-direction: column;
 }
 
-.project-name p, span {
-  padding: 1rem;
+/* .project2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 5rem 1rem 5rem;
+  flex-direction: column;
 }
 
-/* Project Images Containers */
+.project3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 5rem 1rem 5rem;
+  flex-direction: column;
+} */
+
+.project-description {
+  max-width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-name p, span {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.project-name {
+  margin-top: 1rem;
+}
+
+/* Project Images Containers and Figures */
 
 .project-images-container {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 2rem;
-  width: 70%;
   margin: auto;
+}
+
+.project1-images {
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.project2-images {
+  width: 65%; 
+  justify-content: space-evenly;
+}
+
+.project3-images {
+  justify-content: space-evenly;
+  width: 70%;
 }
 
 figure {
@@ -100,5 +141,6 @@ figure img {
 figcaption {
   max-width: 250px;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
+  
 }
