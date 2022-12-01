@@ -73,11 +73,19 @@ header {
   justify-content: center;
 }
 
+.bio-title:hover {
+  animation: pulse 1.5s ease-in-out infinite forwards;
+}
+
 .bio-sub-title {
   font-size: 2.25rem;
   display: flex;
   justify-content: center;
   padding: 1rem;
+}
+
+.bio-sub-title:hover {
+  animation: pulse 1.5s ease-in-out infinite forwards;
 }
 
 #about-me p {
@@ -227,4 +235,24 @@ footer {
   z-index: 999;
   padding: 1rem;
   margin-top: 8rem;
+}
+
+/* Keyframes */
+
+@keyframes pulse {
+  /* 0% {
+    transform: scale(0.4);
+  } */
+
+  /* 33% {
+    transform: scale(0.6);
+  } */
+
+  66% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
