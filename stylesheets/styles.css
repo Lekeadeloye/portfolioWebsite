@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1rem;
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 25%);
@@ -26,7 +26,7 @@ header {
 
 .name {
   font-size: 1.5rem;
-  margin: .5rem;
+  margin: 0.5rem;
   display: inline-block;
   color: hsl(0, 0%, 100%);
 }
@@ -45,7 +45,7 @@ header {
   text-decoration: none;
   color: white;
   padding: 1rem;
-  display: block;  
+  display: block;
 }
 
 .nav-bar li {
@@ -70,14 +70,14 @@ header {
 .bio-title {
   font-size: 3rem;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .bio-sub-title {
   font-size: 2.25rem;
   display: flex;
-  justify-content: center; 
-  padding: 1rem; 
+  justify-content: center;
+  padding: 1rem;
 }
 
 #about-me p {
@@ -90,7 +90,6 @@ header {
   display: flex;
   flex-direction: column;
   padding-left: 5rem;
-
 }
 
 .skills-container p {
@@ -229,5 +228,3 @@ footer {
   padding: 1rem;
   margin-top: 8rem;
 }
-
-
