@@ -15,22 +15,24 @@
 
 // darkMode.addEventListener("click", toggleDarkMode);
 
-let darkMode = document.getElementById("light-dark");
+const darkMode = document.getElementById("light-dark");
 
 const darkModeToggle = () => {
-  let main = document.querySelector("main");
-  let header = document.querySelector("header");
-  let footer = document.querySelector("footer");
+  const body = document.querySelector("body");
+  const header = document.querySelector("header");
+  const footer = document.querySelector("footer");
+  const navLinks = document.querySelectorAll(".primary-navigation");
 
-  main.classList.toggle("body2");
-  header.classList.toggle("header2");
-  footer.classList.toggle("footer2");
-}
-
-const blackText = () => {
-  let navLinks = document.querySelector(".primary-navigation")
-
-  navLinks.classList.toggle(".black-text");
+  body.classList.toggle("body2")
+  navLinks.classList.toggle(".black-text")
+  header.classList.toggle("header2")
+  footer.classList.toggle("footer2")
 };
 
-darkMode.addEventListener("click", darkModeToggle, blackText);
+// const blackText = () => {
+//   let navLinks = document.querySelector(".name");
+
+//   navLinks.classList.toggle(".black-text");
+// };
+
+darkMode.addEventListener("click", darkModeToggle);
