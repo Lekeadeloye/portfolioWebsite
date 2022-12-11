@@ -341,12 +341,99 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+  /*  Navigation  */
+  header {
+    display: none;
+  }
+
+  /*  About Me Section  */
+
+  #about-me {
+    padding-top: 1rem;
+    display: block;
+    height: 30vh;
+    padding: 1rem;
+  }
+
   .bio-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .bio-sub-title {
-    font-size: 1rem;
+    font-size: 1.25rem;
   } 
+
+  /*  Skills Section  */
+
+  .skills-container {
+    padding-left: 0.5rem;
+  }
+
+  .skills-container p {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+  }
+
+  .skills-container ul {
+    padding: 1rem 0 0 1.5rem;
+  }
+
+  /*  Projects Section  */
+
+  #projects {
+    padding-left: 0.5rem;
+  }
+
+  #projects h3 {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+
+  .project-name {
+    padding: 1rem 0 0 1.5rem;
+  }
+
+  /*  Contact Me Section  */
+
+  .contact-me-title {
+    font-size: 1.25rem;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+    padding: 0.5rem;
+  }
+
+  .contact-me-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contact-me-container p {
+    margin-top: 0;
+  }
+
+  #email-button {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .contact-info-container {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+
+  .contact-info-container h3 {
+    display: none;
+  }
+
+  .contact-info-container ul {
+    padding: 0;
+  }
+
+  /*  Footer Section  */
+
+  footer {
+    margin-top: 3.5rem;
+  }
 }
 
