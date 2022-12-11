@@ -11,34 +11,6 @@ body {
   color: hsl(0, 0%, 25%);
 }
 
-/* main {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 25%);
-} */
-
-/*  Dark Mode Theme */
-
-.body2 {
-  font-family: "Mulish", sans-serif;
-  font-size: 1rem;
-  background-color: black;
-  color: beige;
-}
-
-.header2 {
-  background-color: white;
-  color: black;
-}
-
-.footer2 {
-  background-color: white;
-  color: black;
-}
-
-.black-text {
-  color: black;
-}
-
 /* Navigation */
 
 header {
@@ -49,7 +21,6 @@ header {
   width: 100%;
   background-color: hsl(0, 0%, 15%);
   color: hsl(0, 0%, 90%);
-  /* z-index: 999; */
 }
 
 .name {
@@ -285,14 +256,6 @@ footer {
 /* Keyframes */
 
 @keyframes pulse {
-  /* 0% {
-    transform: scale(0.4);
-  } */
-
-  /* 33% {
-    transform: scale(0.6);
-  } */
-
   66% {
     transform: scale(0.8);
   }
@@ -300,4 +263,27 @@ footer {
   100% {
     transform: scale(1);
   }
+}
+
+/*  Dark Mode Theme */
+
+.body2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  background-color: black;
+  color: beige;
+}
+
+.header2 {
+  background-color: white;
+  color: black;
+}
+
+.footer2 {
+  background-color: white;
+  color: black;
+}
+
+.black-text {
+  color: black;
 }
