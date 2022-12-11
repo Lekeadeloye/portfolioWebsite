@@ -86,18 +86,16 @@ header {
 }
 
 .project-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   padding: 5rem 5rem 1rem 5rem;
   flex-direction: column;
 }
 
 .project-description {
-  max-width: 50%;
   text-align: center;
   padding: 0.5rem;
   margin-top: 1rem;
+  min-width: 200px;
 }
 
 .project-name p,
