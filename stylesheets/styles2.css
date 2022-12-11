@@ -141,6 +141,7 @@ figure {
 figure img {
   display: block;
   width: 100%;
+  border-radius: 10%;
   /* height: auto; */
 }
 
@@ -148,6 +149,11 @@ figcaption {
   max-width: 250px;
   text-align: center;
   padding: 1rem;
+}
+
+figcaption p {
+  font-style: italic;
+  font-size: 0.75rem;
 }
 
 footer {

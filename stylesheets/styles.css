@@ -91,6 +91,10 @@ header {
   height: 100vh;
 }
 
+#about-me p {
+  font-style: italic;
+}
+
 .bio-title {
   font-size: 3rem;
   text-align: center;
@@ -370,6 +374,7 @@ footer {
 
   .skills-container {
     padding-left: 0.5rem;
+    margin-top: 1rem;
   }
 
   .skills-container p {
