@@ -54,6 +54,7 @@ header {
 
 .nav-bar li:hover {
   background-color: #555;
+  cursor: pointer;
 }
 
 #light-dark {
@@ -62,7 +63,14 @@ header {
   padding: 0.5rem;
   border: hsl(0, 0%, 100%) none 0.1rem;
   background-color: #555;
-  color: hsl(0, 0%, 100%);;
+  color: hsl(0, 0%, 100%);
+  transition: all 350ms ease-in-out;
+}
+
+#light-dark:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color:hsl(0, 0%, 25%);
 }
 
 /* Projects Section */

@@ -61,15 +61,23 @@ header {
 
 .nav-bar li:hover {
   background-color: #555;
+  cursor: pointer;
 }
 
 #light-dark {
   margin-right: 1rem;
   border-radius: 10%;
   padding: 0.5rem;
-  border: hsl(0, 0%, 100%) none 0.1rem;
+  border: 0.015rem solid beige;
   background-color: #555;
-  color: hsl(0, 0%, 100%);;
+  color: hsl(0, 0%, 100%);
+  transition: all 350ms ease-in-out;
+}
+
+#light-dark:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color:hsl(0, 0%, 25%);
 }
 
 /*  About Me Section */
@@ -200,6 +208,20 @@ header {
   margin-top: 2rem;
   font-size: 1.25rem;
   padding: 0.25rem;
+}
+
+#email-button {
+  background-color: lightgray;
+  color: hsl(0, 0%, 25%);
+  border: 0.015rem solid beige;
+  border-radius: 5%;
+  transition: all 350ms ease-in-out;
+}
+
+#email-button:hover {
+  cursor: pointer;
+  background-color: #555;
+  color: beige;
 }
 
 /* Contact Me Section (Socials) */
