@@ -232,9 +232,9 @@ footer {
     display: none;
   }
 
-  .project-name p {
+  .project-name p, span {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   #projects h1 {
