@@ -15,24 +15,39 @@
 
 // darkMode.addEventListener("click", toggleDarkMode);
 
-const darkMode = document.getElementById("light-dark");
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-bar");
+  const navLinks = document.querySelectorAll(".nav-bar li");
+  
+  burger.addEventListener("click", () => {
+    // Toggle Nav
+    nav.classList.toggle("nav-active");
 
-const darkModeToggle = () => {
-  const body = document.querySelector("body");
-  const header = document.querySelector("header");
-  const footer = document.querySelector("footer");
-  const navLinks = document.querySelectorAll(".primary-navigation");
+    // Animate Links
+    navLinks.forEach((link, index) => {
+      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1.5}s`;
+    });
+    
+    // Burger Animation
+    burger.classList.toggle("toggle");
+  })
+}
 
-  body.classList.toggle("body2")
-  navLinks.classList.toggle(".black-text")
-  header.classList.toggle("header2")
-  footer.classList.toggle("footer2")
-};
+navSlide();
 
-// const blackText = () => {
-//   let navLinks = document.querySelector(".name");
+// const darkMode = document.getElementById("light-dark");
 
-//   navLinks.classList.toggle(".black-text");
+// const darkModeToggle = () => {
+//   const body = document.querySelector("body");
+//   const header = document.querySelector("header");
+//   const footer = document.querySelector("footer");
+//   const navLinks = document.querySelectorAll(".primary-navigation");
+
+//   body.classList.toggle("body2")
+//   navLinks.classList.toggle(".black-text")
+//   header.classList.toggle("header2")
+//   footer.classList.toggle("footer2")
 // };
 
-darkMode.addEventListener("click", darkModeToggle);
+// darkMode.addEventListener("click", darkModeToggle);
