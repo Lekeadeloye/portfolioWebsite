@@ -36,18 +36,18 @@ const navSlide = () => {
 
 navSlide();
 
-// const darkMode = document.getElementById("light-dark");
+const darkMode = document.getElementById("light-dark");
 
-// const darkModeToggle = () => {
-//   const body = document.querySelector("body");
-//   const header = document.querySelector("header");
-//   const footer = document.querySelector("footer");
-//   const navLinks = document.querySelectorAll(".primary-navigation");
+const darkModeToggle = () => {
+  const body = document.querySelector("body");
+  const header = document.querySelector("header");
+  const footer = document.querySelector("footer");
+  const navLinks = document.querySelectorAll(".primary-navigation");
 
-//   body.classList.toggle("body2")
-//   navLinks.classList.toggle(".black-text")
-//   header.classList.toggle("header2")
-//   footer.classList.toggle("footer2")
-// };
+  body.classList.toggle("body2")
+  navLinks.classList.toggle(".black-text")
+  header.classList.toggle("header2")
+  footer.classList.toggle("footer2")
+};
 
-// darkMode.addEventListener("click", darkModeToggle);
+darkMode.addEventListener("click", darkModeToggle);

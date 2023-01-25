@@ -396,6 +396,22 @@ footer {
     transform: translateX(0%);
   }
 
+  .bio-title {
+    padding: 5rem 1rem 1rem;
+  }
+
+  .bio-sub-title {
+    padding: 1rem 1rem 2rem;
+  }
+
+  .skills-container {
+    padding-top: 10rem;
+  }
+
+  .contact-info-container {
+    padding-top: 2rem;
+  }
+
   @keyframes navLinkFade {
     from {
       opacity: 0;
