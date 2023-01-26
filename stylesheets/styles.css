@@ -64,6 +64,10 @@ header {
   cursor: pointer;
 }
 
+.nav-bar2 {
+  display: none;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -71,7 +75,7 @@ header {
 
 .burger div {
   width: 25px;
-  height: 3px;
+  height: 2.5px;
   background-color: hsl(0, 0%, 90%);
   margin: 5px;
   transition: all 0.3s ease;
@@ -370,11 +374,19 @@ footer {
     overflow-x: hidden;
   }
 
+  .name {
+    font-size: 1.25rem;
+  }
+
   .nav-bar {
+    display: none
+  }
+
+  .nav-bar2 {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 5vh;
     background-color: hsl(0, 0%, 15%);
     display: flex;
     flex-direction: column;
@@ -384,12 +396,27 @@ footer {
     transition: transform 0.5s ease-in;
   }
 
-  .nav-bar li {
+  .nav-bar2 li {
+    list-style: none;
+    padding: 2rem;
+    margin-top: 2.5rem;
     opacity: 0;
   }
 
   .burger {
     display: block;
+    margin-left: 12rem;
+  }
+
+  #light-dark {
+    font-size: 0.65rem;
+    /* margin-right: 1rem; */
+    border-radius: 10%;
+    padding: 0.45rem;
+    border: 0.015rem solid beige;
+    background-color: #555;
+    color: hsl(0, 0%, 100%);
+    transition: all 350ms ease-in-out;
   }
 
   .nav-active {
@@ -505,6 +532,9 @@ footer {
   #email-button {
     margin-top: 1rem;
     font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    border-radius: 10%;
   }
 
   .contact-info-container {
