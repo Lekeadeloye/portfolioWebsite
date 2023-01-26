@@ -57,6 +57,23 @@ header {
   cursor: pointer;
 }
 
+.nav-bar2 {
+  display: none;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2.5px;
+  background-color: hsl(0, 0%, 90%);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
 #light-dark {
   margin-right: 1rem;
   border-radius: 10%;
@@ -227,10 +244,93 @@ footer {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 573px) {
-  header {
+/* Mobile Design */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  /* header {
     display: none;
+  } */
+
+  body {
+    overflow-x: hidden;
   }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .nav-bar {
+    display: none
+  }
+
+  .nav-bar2 {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 5vh;
+    background-color: hsl(0, 0%, 15%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-bar2 li {
+    list-style: none;
+    padding: 2rem;
+    margin-top: 2.5rem;
+    opacity: 0;
+  }
+
+  .nav-bar2 a {
+    color: white;
+  }
+
+  .burger {
+    display: block;
+    margin-left: 12rem;
+  }
+
+  #light-dark {
+    font-size: 0.65rem;
+    /* margin-right: 1rem; */
+    border-radius: 10%;
+    padding: 0.45rem;
+    border: 0.015rem solid beige;
+    background-color: #555;
+    color: hsl(0, 0%, 100%);
+    transition: all 350ms ease-in-out;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
 
   .project-name p, span {
     font-weight: 600;
