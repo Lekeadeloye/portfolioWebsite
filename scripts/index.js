@@ -29,17 +29,44 @@ const navSlide = () => {
       if (link.style.animation) {
         link.style.animation = "";
       } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1.5}s`;
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1}s`;
       }
-      
     });
     
     // Burger Animation
     burger.classList.toggle("toggle");
   })
+
+  navLinks.forEach(n => n.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+    burger.classList.toggle("toggle");
+
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1}s`;
+      }
+    });
+  }));
 }
 
 navSlide();
+
+// const normal = () => {
+//   document.querySelectorAll(".nav-bar2 li").forEach(n => n.addEventListener("click", () => {
+//     nav.classList.toggle("nav-active");
+//     burger.classList.toggle("toggle");
+//   }));
+// }
+
+// const app = () => {
+//   navSlide();
+//   normal();
+// }
+
+// app();
+
 
 const darkMode = document.getElementById("light-dark");
 
