@@ -19,7 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 90%);
 }
 
@@ -287,7 +287,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 90%);
   z-index: 999;
   padding: 1rem;

@@ -19,7 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 90%);
   /* z-index: 999; */
 }
@@ -78,7 +78,7 @@ header {
   margin-right: 1rem;
   border-radius: 10%;
   padding: 0.5rem;
-  border: hsl(0, 0%, 100%) none 0.1rem;
+  border: 0.015rem solid beige;
   background-color: #555;
   color: hsl(0, 0%, 100%);
   transition: all 350ms ease-in-out;
@@ -178,7 +178,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 90%);
   z-index: 999;
   padding: 1rem;
