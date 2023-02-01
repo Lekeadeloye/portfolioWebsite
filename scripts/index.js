@@ -1,20 +1,3 @@
-// let darkMode = document.getElementById("light-dark");
-
-// function toggleDarkMode() {
-//   let body = document.querySelector("body");
-//   let header = document.querySelector("header");
-//   let footer = document.querySelector("footer");
-
-//   body.style.backgroundColor = "black";
-//   body.style.color = "beige";
-//   header.style.backgroundColor = "white";
-//   header.style.color = "black";
-//   footer.style.backgroundColor = "white";
-//   footer.style.color = "white";
-// }
-
-// darkMode.addEventListener("click", toggleDarkMode);
-
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-bar2");
@@ -71,15 +54,24 @@ navSlide();
 const darkMode = document.getElementById("light-dark");
 
 const darkModeToggle = () => {
-  const body = document.querySelector("body");
-  const header = document.querySelector("header");
-  const footer = document.querySelector("footer");
-  const navLinks = document.querySelectorAll(".primary-navigation");
 
-  body.classList.toggle("body2")
-  navLinks.classList.toggle(".black-text")
-  header.classList.toggle("header2")
-  footer.classList.toggle("footer2")
+  const main = document.querySelector("main");
+
+  main.classList.toggle("body2");
 };
 
 darkMode.addEventListener("click", darkModeToggle);
+
+// Enlarge Project Screenshot Image when clicked
+
+const enlargeImage = () => {
+  const image = document.querySelectorAll("figure img");
+
+  image.forEach(img => img.addEventListener("click", () => {
+    img.classList.toggle("figure2");
+  }));
+}
+
+enlargeImage();
+
+

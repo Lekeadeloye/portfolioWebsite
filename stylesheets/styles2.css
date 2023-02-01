@@ -21,7 +21,6 @@ header {
   width: 100%;
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 90%);
-  /* z-index: 999; */
 }
 
 .name {
@@ -148,6 +147,7 @@ span {
 .project3-images {
   justify-content: space-evenly;
   width: 70%;
+  padding-bottom: 8rem;
 }
 
 figure {
@@ -155,11 +155,20 @@ figure {
   margin: 0.75rem 0;
 }
 
+.figure2 {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0.75rem 0;
+}
+
 figure img {
   display: block;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
   border-radius: 10%;
-  /* height: auto; */
+  cursor: pointer;
 }
 
 figcaption {
@@ -182,7 +191,6 @@ footer {
   color: hsl(0, 0%, 90%);
   z-index: 999;
   padding: 1rem;
-  margin-top: 8rem;
 }
 
 /*  Dark Theme  */
@@ -192,16 +200,6 @@ footer {
   font-size: 1rem;
   background-color: black;
   color: beige;
-}
-
-.header2 {
-  background-color: white;
-  color: black;
-}
-
-.footer2 {
-  background-color: white;
-  color: black;
 }
 
 /*  Media Queries  */
@@ -266,9 +264,9 @@ footer {
   .nav-bar2 {
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 5vh;
-    background-color: hsl(0, 0%, 15%);
+    height: 94.3vh;
+    top: 5.7vh;
+    background-color: hsl(0, 0%, 25%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +329,6 @@ footer {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
-
   .project-name p, span {
     font-weight: 600;
     font-size: 1.25rem;
@@ -372,7 +369,5 @@ footer {
 
   footer {
     padding: 1rem;
-    margin-top: 3.5rem;
   }
-
 } 

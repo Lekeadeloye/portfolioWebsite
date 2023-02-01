@@ -50,7 +50,6 @@ header {
 
 .nav-bar li a {
   text-decoration: none;
-  /* color: white; */
   padding: 1rem;
   display: block;
 }
@@ -212,7 +211,6 @@ header {
   width: 50%;
   margin: auto;
   text-align: center;
-  /* padding: 1.5rem; */
 }
 
 .contact-me-description {
@@ -260,6 +258,7 @@ header {
 
 .contact-details {
   padding: 1.75rem 0 0 3rem;
+  margin-bottom: 8rem;
 }
 
 .contact-details li {
@@ -291,7 +290,6 @@ footer {
   color: hsl(0, 0%, 90%);
   z-index: 999;
   padding: 1rem;
-  margin-top: 8rem;
 }
 
 /* Keyframes */
@@ -313,20 +311,6 @@ footer {
   font-size: 1rem;
   background-color: black;
   color: beige;
-}
-
-.header2 {
-  background-color: white;
-  color: black;
-}
-
-.footer2 {
-  background-color: white;
-  color: black;
-}
-
-.black-text {
-  color: black;
 }
 
 /*  Media Queries  */
@@ -365,12 +349,7 @@ footer {
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
 
-  /*  Navigation  */
-  /* header {
-    display: none;
-  } */
-
-  body {
+  main {
     overflow-x: hidden;
   }
 
@@ -385,9 +364,9 @@ footer {
   .nav-bar2 {
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 5vh;
-    background-color: hsl(0, 0%, 15%);
+    height: 94.3vh;
+    top: 5.7vh;
+    background-color: hsl(0, 0%, 25%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -549,11 +528,4 @@ footer {
   .contact-info-container ul {
     padding: 0;
   }
-
-  /*  Footer Section  */
-
-  footer {
-    margin-top: 3.5rem;
-  }
 }
-
