@@ -66,6 +66,11 @@ darkMode.addEventListener("click", darkModeToggle);
 
 const enlargeImage = () => {
   const image = document.querySelectorAll("figure img");
+  const figure = document.querySelectorAll("figure");
+
+  figure.forEach(fig => fig.addEventListener("click", () => {
+    fig.classList.toggle("figure3");
+  }));
 
   image.forEach(img => img.addEventListener("click", () => {
     img.classList.toggle("figure2");

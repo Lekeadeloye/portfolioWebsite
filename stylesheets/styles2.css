@@ -155,11 +155,20 @@ figure {
   margin: 0.75rem 0;
 }
 
+figure img {
+  width: 100%;
+  max-width: 100%;
+}
+
 .figure2 {
   width: 600px;
   height: 400px;
   object-fit: cover;
   margin: 0.75rem 0;
+}
+
+.figure3 {
+  max-width: 500px;
 }
 
 figure img {
