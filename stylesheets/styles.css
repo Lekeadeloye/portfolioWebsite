@@ -313,6 +313,10 @@ footer {
   color: beige;
 }
 
+.body2 .project-name a {
+  color: beige;
+}
+
 /*  Media Queries  */
 
 @media only screen and (min-width: 1060px) and (max-width: 1280px) {
